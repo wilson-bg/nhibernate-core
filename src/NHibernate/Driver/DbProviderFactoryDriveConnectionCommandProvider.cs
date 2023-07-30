@@ -15,6 +15,7 @@ namespace NHibernate.Driver
 			}
 			this.dbProviderFactory = dbProviderFactory;
 		}
+		//
 
 		public DbConnection CreateConnection()
 		{
